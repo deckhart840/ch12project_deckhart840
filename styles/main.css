@@ -1,0 +1,33 @@
+/* David Eckhart - April 27, 2026 */
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #38bdf8;
+    background-color: #1e293b;
+    color: #e5e7eb;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: 1px solid #22c55e;
+    background-color: #22c55e;
+    color: #0f172a;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #16a34a;
+}
+
+.message {
+    color: #facc15;
+    margin: 20px 0;
+}
